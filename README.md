@@ -9,6 +9,8 @@ It is fully free and fully open source. The license is Apache 2.0, meaning you a
 cd logstash-input-utmp.gemspe
 rm -rf .git
 vim Gemfile 修改插件绝对路径
+git init
+git add .
 gem clean
 gem build logstash-input-utmp.gemspec
 ```
